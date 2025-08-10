@@ -4,25 +4,51 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
 
-  <title>Urlaub-Ferien-Kroatien.com – Domain mieten/kaufen | Rent/Buy | Najam/Prodaja</title>
-  <meta name="description" content="Premium-Domain für Kroatien-Tourismus. Verfügbar zur Vermietung, Zusammenarbeit oder Übernahme. Kontakt: zagrebrental2000@gmail.com" />
+  <title>Urlaub in Kroatien – Ferienhaus & Ferienwohnung | Urlaub-Ferien-Kroatien.com</title>
+  <meta name="description" content="Urlaub in Kroatien: Ferienhaus, Ferienwohnung, Apartment & Aktivitäten. Premium-Domain mit Reichweitenpotenzial – ideal für Agenturen & Vermieter. Jetzt anfragen." />
+  <meta name="robots" content="index,follow" />
 
-  <!-- Canonical & hreflang -->
   <link rel="canonical" href="https://urlaub-ferien-kroatien.com/">
-  <link rel="alternate" href="https://urlaub-ferien-kroatien.com/" hreflang="de">
-  <link rel="alternate" href="https://urlaub-ferien-kroatien.com/" hreflang="en">
-  <link rel="alternate" href="https://urlaub-ferien-kroatien.com/" hreflang="hr">
-  <link rel="alternate" href="https://urlaub-ferien-kroatien.com/" hreflang="x-default">
 
   <!-- Open Graph / Twitter -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Urlaub-Ferien-Kroatien.com – Premium Domain">
-  <meta property="og:description" content="Verfügbar zur Vermietung, Zusammenarbeit oder Übernahme.">
+  <meta property="og:title" content="Urlaub in Kroatien – Ferienhaus & Ferienwohnung">
+  <meta property="og:description" content="Ferienhaus, Ferienwohnung & Aktivitäten an der Adria. Kooperation/Anzeigen: zagrebrental2000@gmail.com">
   <meta property="og:url" content="https://urlaub-ferien-kroatien.com/">
   <meta property="og:site_name" content="Urlaub-Ferien-Kroatien.com">
+  <meta property="og:image" content="https://urlaub-ferien-kroatien.com/og-adria.jpg">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://urlaub-ferien-kroatien.com/og-adria.jpg">
 
-  <!-- JSON-LD (Product/Offer za SEO) -->
+  <!-- JSON-LD: WebSite + SearchAction -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebSite",
+    "name":"Urlaub-Ferien-Kroatien.com",
+    "url":"https://urlaub-ferien-kroatien.com/",
+    "potentialAction":{
+      "@type":"SearchAction",
+      "target":"https://urlaub-ferien-kroatien.com/?q={search_term_string}",
+      "query-input":"required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- JSON-LD: FAQPage (turističke namjere) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"FAQPage",
+    "mainEntity":[
+      {"@type":"Question","name":"Wann ist die beste Reisezeit für Kroatien?","acceptedAnswer":{"@type":"Answer","text":"Mai–Oktober. Juli/August sind am wärmsten und belebtesten; Frühjahr und Herbst sind günstiger."}},
+      {"@type":"Question","name":"Gibt es Ferienhäuser direkt am Meer?","acceptedAnswer":{"@type":"Answer","text":"Ja, entlang der Adria (Istrien, Kvarner, Dalmatien) gibt es zahlreiche Unterkünfte mit Meerblick und Strandnähe."}},
+      {"@type":"Question","name":"Welche Regionen sind beliebt?","acceptedAnswer":{"@type":"Answer","text":"Istrien (Rovinj, Poreč), Kvarner (Krk, Cres), Dalmatien (Zadar, Split, Hvar, Brač, Dubrovnik) und Nationalparks (Plitvicer Seen, Krka)."}}
+    ]
+  }
+  </script>
+
+  <!-- (Ostavljam Product/Offer ako želiš naglasiti najam/prodaju domene) -->
   <script type="application/ld+json">
   {
     "@context":"https://schema.org",
@@ -45,15 +71,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 
   <style>
-    :root{
-      --bg-overlay: rgba(0,42,73,.40);
-      --card-bg: rgba(255,255,255,.92);
-      --accent: #1e9bd7;      /* light blue */
-      --accent-2:#1276a7;
-      --text:#0d1b24;
-    }
-    *{box-sizing:border-box}
-    html,body{height:100%}
+    :root{ --bg-overlay: rgba(0,42,73,.40); --card-bg: rgba(255,255,255,.92); --accent:#1e9bd7; --accent-2:#1276a7; --text:#0d1b24 }
+    *{box-sizing:border-box} html,body{height:100%}
     body{
       margin:0; font-family:Poppins,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
       color:#fff;
@@ -63,49 +82,34 @@
       background-size:cover; background-position:center; background-attachment:fixed;
       display:flex; align-items:center; justify-content:center; padding:24px;
     }
-    .shell{width:min(980px,100%)}
-    .hero{
-      text-align:center; padding:36px 28px; border-radius:22px;
-      backdrop-filter: blur(2px);
+    .shell{width:min(1100px,100%)}
+    .hero{ text-align:center; padding:36px 28px; border-radius:22px; backdrop-filter: blur(2px);
       background: linear-gradient(180deg, rgba(255,255,255,.10), rgba(255,255,255,.06));
-      border:1px solid rgba(255,255,255,.18);
-      box-shadow:0 10px 30px rgba(0,0,0,.25);
-    }
+      border:1px solid rgba(255,255,255,.18); box-shadow:0 10px 30px rgba(0,0,0,.25) }
     .brand{letter-spacing:.5px;font-weight:700;font-size:clamp(28px,5vw,48px);margin:.2rem 0 1rem}
     .tag{opacity:.95;font-size:clamp(14px,2.2vw,18px);margin:0 0 1.25rem}
     .langs{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-bottom:18px}
-    .lang-btn{
-      border:1px solid rgba(255,255,255,.35); color:#fff; background:transparent;
-      padding:8px 12px; border-radius:999px; cursor:pointer; font-weight:600; transition:.18s;
-    }
+    .lang-btn{border:1px solid rgba(255,255,255,.35); color:#fff; background:transparent;
+      padding:8px 12px; border-radius:999px; cursor:pointer; font-weight:600; transition:.18s}
     .lang-btn[aria-pressed="true"], .lang-btn:hover{background:var(--accent); border-color:transparent}
-
     .grid{display:grid;gap:18px;grid-template-columns:1fr}
-    @media (min-width:880px){ .grid{grid-template-columns:1.5fr .9fr} }
-
-    .card{
-      text-align:left; color:var(--text); background:var(--card-bg);
-      padding:22px; border-radius:16px; box-shadow:0 12px 28px rgba(0,0,0,.18);
-    }
+    @media (min-width:980px){ .grid{grid-template-columns:1.6fr .9fr} }
+    .card{ text-align:left; color:var(--text); background:var(--card-bg);
+      padding:22px; border-radius:16px; box-shadow:0 12px 28px rgba(0,0,0,.18) }
     .card h2{margin:0 0 .45rem; font-size:clamp(18px,2.2vw,22px)}
-    .card p{margin:.4rem 0; line-height:1.55}
-    .cta{
-      margin-top:16px; display:inline-flex; align-items:center; gap:10px;
+    .card p{margin:.4rem 0; line-height:1.6}
+    .cta{ margin-top:16px; display:inline-flex; align-items:center; gap:10px;
       background:var(--accent); color:#fff; text-decoration:none; font-weight:700;
-      padding:12px 18px; border-radius:999px; transition:.2s background;
-    }
+      padding:12px 18px; border-radius:999px; transition:.2s background }
     .cta:hover{background:var(--accent-2)}
     .mini{opacity:.8; font-size:12px; margin-top:8px}
     footer{margin-top:18px; text-align:center; opacity:.85; font-size:12px; color:#e9f6ff}
     a{color:var(--accent-2); font-weight:600}
-
-    /* Counter badge (diskretno) */
-    #counter{
-      position:fixed; right:10px; bottom:10px;
-      background:rgba(255,255,255,.85); color:#0b2a3a;
-      border-radius:999px; padding:6px 10px; font-size:11px;
-      box-shadow:0 4px 14px rgba(0,0,0,.2); opacity:.5; user-select:none;
-    }
+    #counter{ position:fixed; right:10px; bottom:10px;
+      background:rgba(255,255,255,.85); color:#0b2a3a; border-radius:999px; padding:6px 10px; font-size:11px;
+      box-shadow:0 4px 14px rgba(0,0,0,.2); opacity:.55; user-select:none }
+    .faq details{margin:.4rem 0}
+    .faq summary{cursor:pointer; font-weight:600}
   </style>
 </head>
 <body>
@@ -113,7 +117,7 @@
     <section class="hero">
       <h1 class="brand">Urlaub-Ferien-Kroatien.com</h1>
       <p class="tag" id="tagline">
-        Premium-Domain für Tourismus in Kroatien — verfügbar zur Vermietung, Zusammenarbeit oder Übernahme.
+        Urlaub in Kroatien: <strong>Ferienhaus</strong>, <strong>Ferienwohnung</strong> &amp; Aktivitäten an der Adria. Kooperationen &amp; Anzeigen willkommen.
       </p>
 
       <div class="langs" role="tablist" aria-label="Language selector">
@@ -125,70 +129,72 @@
       <div class="grid" id="content">
         <!-- DE -->
         <article class="card lang lang-de">
-          <h2>Diese Domain ist verfügbar</h2>
-          <p>zur <strong>Vermietung</strong>, <strong>Zusammenarbeit</strong> oder <strong>Übernahme</strong>. Ideal für Reisebüros, Vermieter, Portale oder Agenturen in Kroatien.</p>
-          <p>Seit 2009 registriert — vertrauenswürdige, leicht merkbare Marke.</p>
-          <a class="cta" href="mailto:zagrebrental2000@gmail.com?subject=Urlaub-Ferien-Kroatien.com%20Anfrage">Kontakt aufnehmen</a>
+          <h2>Ferienhaus & Ferienwohnung in Kroatien</h2>
+          <p>Planst du deinen Urlaub in Kroatien? Auf dieser Domain können <strong>Ferienhäuser, Ferienwohnungen und Apartments</strong> beworben werden – ideal für <strong>Agenturen, Portale und Vermieter</strong> mit Fokus auf die Adria (Istrien, Kvarner, Dalmatien) und Highlights wie <em>Plitvicer Seen</em> oder <em>Krka</em>.</p>
+          <p>Diese Premium-Domain ist seit 2009 registriert – <strong>markenstark, leicht zu merken</strong> und perfekt für SEO rund um „Urlaub in Kroatien“, „Ferienhaus Kroatien“, „Ferienwohnung Kroatien“ und „Kroatien am Meer“.</p>
+          <a class="cta" href="mailto:zagrebrental2000@gmail.com?subject=Kooperation%20Urlaub-Ferien-Kroatien.com">Kooperation/Anzeige anfragen</a>
           <div class="mini">E-Mail: <a href="mailto:zagrebrental2000@gmail.com">zagrebrental2000@gmail.com</a></div>
         </article>
 
         <aside class="card lang lang-de">
           <h2>Ihre Anzeige hier</h2>
-          <p>Platzieren Sie Ihre Kampagne auf dieser Domain.</p>
-          <a class="cta" href="mailto:zagrebrental2000@gmail.com?subject=Anzeige%20auf%20Urlaub-Ferien-Kroatien.com">Angebot anfragen</a>
+          <p>Platz für 10–20 Partner (Attraktionen, Agenturen, Vermieter). Sichtbar für Reisende mit klarer Buchungsabsicht.</p>
+          <a class="cta" href="mailto:zagrebrental2000@gmail.com?subject=Anzeige%20auf%20Urlaub-Ferien-Kroatien.com">Jetzt Angebot erhalten</a>
         </aside>
 
         <!-- EN -->
         <article class="card lang lang-en" hidden>
-          <h2>This domain is available</h2>
-          <p>for <strong>rent</strong>, <strong>collaboration</strong>, or <strong>acquisition</strong>. Perfect for travel agencies, rental managers, portals, or marketing teams targeting Croatia.</p>
-          <p>Registered since 2009 — a trustworthy, memorable name.</p>
-          <a class="cta" href="mailto:zagrebrental2000@gmail.com?subject=Urlaub-Ferien-Kroatien.com%20Inquiry">Contact now</a>
+          <h2>Holidays in Croatia – Villas & Apartments</h2>
+          <p>Promote <strong>villas, apartments, experiences</strong> along the Adriatic. Ideal for <strong>agencies and rental managers</strong>. SEO focus: “Croatia holidays”, “Croatia apartment”, “seafront”.</p>
+          <a class="cta" href="mailto:zagrebrental2000@gmail.com?subject=Partnership%20Urlaub-Ferien-Kroatien.com">Partner with us</a>
           <div class="mini">E-mail: <a href="mailto:zagrebrental2000@gmail.com">zagrebrental2000@gmail.com</a></div>
         </article>
 
         <aside class="card lang lang-en" hidden>
           <h2>Your ad here</h2>
-          <p>Showcase your campaign on this domain.</p>
+          <p>Slots for 10–20 curated partners and attractions.</p>
           <a class="cta" href="mailto:zagrebrental2000@gmail.com?subject=Ad%20placement%20Urlaub-Ferien-Kroatien.com">Get a quote</a>
         </aside>
 
         <!-- HR -->
         <article class="card lang lang-hr" hidden>
-          <h2>Domena je dostupna</h2>
-          <p>za <strong>najam</strong>, <strong>suradnju</strong> ili <strong>preuzimanje</strong>. Idealno za turističke agencije, iznajmljivače, portale ili marketing usmjeren na Hrvatsku.</p>
-          <p>Registrirana od 2009. — prepoznatljivo i lako pamtljivo ime.</p>
-          <a class="cta" href="mailto:zagrebrental2000@gmail.com?subject=Urlaub-Ferien-Kroatien.com%20Upit">Pošaljite upit</a>
+          <h2>Odmor u Hrvatskoj – apartmani i kuće</h2>
+          <p>Promovirajte <strong>apartmane, kuće za odmor i aktivnosti</strong> uz Jadran. Idealno za <strong>agencije i iznajmljivače</strong>. SEO fokus: “odmor u Hrvatskoj”, “apartman Hrvatska”, “kuća uz more”.</p>
+          <a class="cta" href="mailto:zagrebrental2000@gmail.com?subject=Suradnja%20Urlaub-Ferien-Kroatien.com">Pošaljite upit</a>
           <div class="mini">E-mail: <a href="mailto:zagrebrental2000@gmail.com">zagrebrental2000@gmail.com</a></div>
         </article>
 
         <aside class="card lang lang-hr" hidden>
           <h2>Vaš oglas ovdje</h2>
-          <p>Postavite kampanju na ovoj domeni.</p>
+          <p>Mjesto za 10–20 partnera (atrakcije, agencije, iznajmljivači).</p>
           <a class="cta" href="mailto:zagrebrental2000@gmail.com?subject=Oglas%20na%20Urlaub-Ferien-Kroatien.com">Zatraži ponudu</a>
         </aside>
+      </div>
+
+      <!-- FAQ (pomaže SEO-u + korisničkim namjerama) -->
+      <div class="card faq" style="margin-top:18px; text-align:left">
+        <h2>FAQ: Urlaub in Kroatien</h2>
+        <details><summary>Beste Reisezeit?</summary><p>Mai–Oktober; Hochsaison ist Juli/August. Frühjahr/Herbst su povoljniji i mirniji.</p></details>
+        <details><summary>Beliebte Regionen?</summary><p>Istrien (Rovinj, Poreč), Kvarner (Krk), Dalmacija (Zadar, Split, Hvar, Brač, Dubrovnik), Plitvice i Krka.</p></details>
+        <details><summary>Unterkünfte am Meer?</summary><p>Da, mnogo je objekata uz obalu sa pogledom na more i blizu plaža.</p></details>
       </div>
 
       <footer>© Urlaub-Ferien-Kroatien.com • Static landing</footer>
     </section>
   </main>
 
-  <!-- Diskretni brojač posjeta (start 10000) -->
+  <!-- Diskretni brojač posjeta (start ≥ 10000) -->
   <div id="counter" title="Visits">—</div>
 
   <script>
     // language switcher
     const btns = document.querySelectorAll('.lang-btn');
-    const groups = {
-      de: document.querySelectorAll('.lang-de'),
-      en: document.querySelectorAll('.lang-en'),
-      hr: document.querySelectorAll('.lang-hr')
-    };
+    const groups = { de: document.querySelectorAll('.lang-de'), en: document.querySelectorAll('.lang-en'), hr: document.querySelectorAll('.lang-hr') };
     const tagline = document.getElementById('tagline');
     const lines = {
-      de:"Premium-Domain für Tourismus in Kroatien — verfügbar zur Vermietung, Zusammenarbeit oder Übernahme.",
-      en:"Premium domain for tourism in Croatia — available for rent, collaboration, or acquisition.",
-      hr:"Premium domena za turizam u Hrvatskoj — dostupna za najam, suradnju ili preuzimanje."
+      de:"Urlaub in Kroatien: Ferienhaus, Ferienwohnung & Aktivitäten an der Adria. Kooperationen & Anzeigen willkommen.",
+      en:"Holidays in Croatia: villas, apartments & experiences on the Adriatic. Partnerships welcome.",
+      hr:"Odmor u Hrvatskoj: apartmani, kuće i aktivnosti na Jadranu. Suradnje i oglasi dobrodošli."
     };
     function show(lang){
       Object.keys(groups).forEach(k => groups[k].forEach(el => el.hidden = (k!==lang)));
@@ -200,22 +206,50 @@
     btns.forEach(b=>b.addEventListener('click',()=>show(b.dataset.lang)));
     try{ const saved = localStorage.getItem('ufk_lang'); if(saved&&groups[saved]) show(saved); }catch(e){}
 
-    // Visit counter via countapi (global), init to 10000 then hit+1
+    // Robust Visit counter (CountAPI) start at >= 10000
     (async()=>{
-      const NS='urlaub-ferien-kroatien';
-      const KEY='visits';
-      const badge=document.getElementById('counter');
+      const badge = document.getElementById('counter');
+      const NS = 'urlaub-ferien-kroatien';
+      const KEY = 'visits';
+      const endpoint = (p)=>`https://api.countapi.xyz/${p}`;
+
+      // helper to format DE
+      const fmt = (n)=> n.toLocaleString('de-DE');
+
+      // Fallback to localStorage if network blocks
+      const lsKey = 'ufk_visits_ls';
+      const lsBump = ()=>{
+        let v = 10000;
+        try{
+          const cur = parseInt(localStorage.getItem(lsKey)||'10000',10);
+          v = isNaN(cur)?10000:cur;
+          v++;
+          localStorage.setItem(lsKey, String(v));
+        }catch(e){}
+        badge.textContent = `Visits: ${fmt(v)}`;
+      };
+
       try{
-        // ensure it exists with value 10000 (no-op if exists)
-        await fetch(`https://api.countapi.xyz/create?namespace=${NS}&key=${KEY}&value=10000`).catch(()=>{});
-        const res=await fetch(`https://api.countapi.xyz/hit/${NS}/${KEY}`);
-        const data=await res.json();
-        badge.textContent = `Visits: ${data.value.toLocaleString('de-DE')}`;
+        // 1) Try GET current
+        let res = await fetch(endpoint(`get/${NS}/${KEY}`));
+        if(res.status === 404){
+          // 2) Create at 10000 if not exists
+          await fetch(endpoint(`create?namespace=${NS}&key=${KEY}&value=10000`));
+        }else{
+          const cur = await res.json();
+          if(typeof cur.value === 'number' && cur.value < 10000){
+            await fetch(endpoint(`set?namespace=${NS}&key=${KEY}&value=10000`));
+          }
+        }
+        // 3) Hit +1
+        const hit = await fetch(endpoint(`hit/${NS}/${KEY}`));
+        const data = await hit.json();
+        badge.textContent = `Visits: ${fmt(data.value||10000)}`;
       }catch(e){
-        badge.style.display='none';
+        // Network blocked (adblock / CORS) → fallback
+        lsBump();
       }
     })();
   </script>
 </body>
 </html>
-
